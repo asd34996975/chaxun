@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-size: 12px;
+    font-family: "宋体";
+    
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.wrap{
+    width: 720px;
+    margin: 0 auto;
+}
+.shoplist{
+    line-height: 30px;
+    width: 720px;
+}
+.shoplist li{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.shoplist li span:nth-child(1){
+    width: 40px;
+    border-left: 1px solid #ccc;
+}
+.shoplist li span:nth-child(2){
+    width: 100px;
+}
+.shoplist li span:nth-child(3){
+    width: 60px;
+}
+.shoplist li span:nth-child(4){
+    width: 370px;
+}
+.shoplist li span:nth-child(5){
+    width: 120px;
+}
+.shoplist li span{
+    display: inline-block;
+    border-right: 1px solid #ccc;
+}
+.shoplist-footer{
+    transform: translate(-50%);
+    margin-left: 50%;
+    height: 30px;
+    user-select:none;
+}
+
+.search{
+    background: #e5e5e5;
+    height: 49px;
+}
+.search input{
+    background: #fff;
+}
+.search div{
+    float: left;
+    line-height: 49px;
+}
+
+button{
+    background: #009944;
+    color: #fff;
+    border: none;
+    padding: 0;
+    width: 73px;
+    height: 31px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 7px;
+}
+.key{
+    float: left;
+    font-size: 16px;
+    color: #009944;
+    line-height: 49px;
+    padding-left: 6px;
+}
+.shopnum input{
+    width: 110px;
+    height: 30px;
+    margin-right: 18px;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+.shoppart input{
+    width: 100px;
+    height: 30px;
+    margin-right: 16px;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+.shopadress input{
+    width: 161px;
+    height: 30px;
+    margin-right: 14px;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+.shopphone input{
+    width: 110px;
+    height: 30px;
+    padding-left: 7px;
+    box-sizing: border-box;
+}

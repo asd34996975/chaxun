@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <div class="wrap" >
+        <br>
+        <div class="search">
+            <span class="key">关键字搜索：</span>
+            <div class="shopnum">
+                <input type="text" placeholder="专卖店号"id="shopnumInput" >
+            </div>
+            <div class="shoppart">
+                <input type="text" placeholder="所在区"id="shoppartInput" value="">
+            </div>
+            <div class="shopadress">
+                <input type="text" placeholder="专卖店地址" value="">
+            </div>
+            <div class="shopphone">
+                <input type="text" placeholder="店内电话">
+            </div>
+            <button class="btn" id='but'>搜索</button>
+        </div>
+        <br>
+        <ul class="shoplist" style=" background: #519c38; color: #fff;">
+            <li>
+                <span>序号</span>
+                <span>专卖店号</span>
+                <span>所在区</span>
+                <span>专卖店地址</span>
+                <span>店内电话</span>
+            </li>
+        </ul>
+        <ul  class="shoplist"id="shoplist" style="height: 610px;"></ul>
+        <br>
+        <div class="shoplist-footer">
+            <span>当前页第<span class="curren">0</span>页</span>  
+            <span>共<span class="zongpage">0</span>页</span>
+            <span>共<span class="num">0</span>条</span>
+            <span id="one" style="cursor:pointer">首页</span>
+            <span id="pre" style="cursor:pointer">上一页</span>
+            <span id="next" style="cursor:pointer">下一页</span>
+            <span id="last" style="cursor:pointer">尾页</span>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="./js/shopData.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
